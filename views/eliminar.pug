@@ -1,0 +1,10 @@
+html 
+    head
+        title Eliminar producto
+    body 
+        h1 Vamos a eliminar el producto
+        form(action="/deleteProduct" method="post")
+            label(for="id") Dime qué id de producto vas a eliminar: 
+            input#id(type="text" name="id") 
+            br
+            button(type="submit") Eliminar
